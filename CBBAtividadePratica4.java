@@ -4,18 +4,18 @@ import java.util.Scanner;
 import models.OrcamentoPiscina;
 
 class CBBAtividadePratica4 {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Digite a cubagem da piscina:");
+        System.out.println("Digite a cubagem da piscina:");
 
-    BigDecimal cubagem = scanner.nextBigDecimal();
+        BigDecimal cubagem = scanner.nextBigDecimal();
 
-    BigDecimal valorTotal = OrcamentoPiscina.calculaValorTotal(cubagem);
+        BigDecimal valorTotal = OrcamentoPiscina.calculaValorTotal(cubagem);
 
-    System.out.println("Valor total da piscina é " + valorTotal);
+        System.out.println("Valor total da piscina é " + valorTotal);
 
-    scanner.close();
-  }
+        scanner.close();
+    }
 }
