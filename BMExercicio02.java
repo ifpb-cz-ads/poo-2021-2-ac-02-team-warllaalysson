@@ -10,7 +10,7 @@ public class BMExercicio02 {
 
         // Inicializa
         i = 1;
-        j = 2;
+        j = 2L;
         p = 20.0f;
         q = 30.0;
         b = true;
